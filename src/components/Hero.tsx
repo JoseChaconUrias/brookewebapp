@@ -3,6 +3,7 @@ import Image from "next/image";
 import React from "react";
 import { HeroHighlight, Highlight } from "./ui/HeroHighlight";
 import { motion } from "framer-motion";
+import { FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const Hero = () => {
   return (
@@ -36,8 +37,12 @@ const Hero = () => {
                 Hello, I'm Brooke McCartney with interests in Microbes and DNA
                 🧬🧪
               </p>
-              <span>
-                <Highlight className="text-md md:text-lg lg:text-xl">View more about me</Highlight>
+              <span className="flex flex-row items-center gap-4">
+                <Highlight className="text-md md:text-lg lg:text-xl">
+                  View more about me
+                </Highlight>
+                <FaInstagram />
+                <FaLinkedin />
               </span>
             </section>
           </div>

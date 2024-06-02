@@ -1,4 +1,5 @@
 import Hero from '@/components/Hero';
+import InternshipContent from '@/components/InternshipContent';
 import ResearchContent from '@/components/ResearchContent';
 import NavBar from '@/components/nav/NavBar';
 import React from 'react';
@@ -11,6 +12,7 @@ const page = () => {
         <NavBar />
         <Hero />
         <ResearchContent />
+        <InternshipContent />
         <div>h</div>
         <div>h</div>
         <div>h</div>
