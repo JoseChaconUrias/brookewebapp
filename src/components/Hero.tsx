@@ -7,7 +7,7 @@ import { FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const Hero = () => {
   return (
-    <div className="flex items-center justify-center h-screen">
+    <div id="home" className="flex items-center justify-center h-screen">
       <HeroHighlight className="w-full p-8">
         <motion.h1
           initial={{
@@ -23,7 +23,7 @@ const Hero = () => {
             ease: [0.4, 0.0, 0.2, 1],
           }}
         >
-          <div className="flex flex-col gap-10 justify-between items-center lg:flex-row-reverse w-full">
+          <div className="flex flex-col gap-10  justify-between items-center lg:flex-row-reverse w-full">
             <Image
               src="/brookePortrait.jpg"
               alt="photo"
