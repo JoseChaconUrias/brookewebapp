@@ -8,12 +8,10 @@ const page = () => {
   return (
     <main className="flex p-4 items-center justify-center w-full">
       <div className="w-[75rem]">
-        <NavBar />
         <Hero />
         <ResearchContent />
         <Contact />
       </div>
-      
     </main>
   );
 };
