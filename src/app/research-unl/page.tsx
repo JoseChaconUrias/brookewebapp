@@ -7,9 +7,9 @@ const page = () => {
     <div className="flex items-center justify-center w-full">
       <div className="w-full">
         <ResearchUnl />
-        <h1 className="text-3xl text-center mb-10">Positive Twitching</h1>
+        <h1 className="text-3xl font-bold text-center mb-10">Positive Twitching</h1>
         <div className="flex flex-col justify-center gap-20 items-center md:flex-row md:mb-20">
-          <div className="outline rounded-xl">
+          <div className="outline outline-purple-300 rounded-xl">
             <Image
               src="/positiveTwitching1.jpeg"
               alt="photo"
@@ -19,7 +19,7 @@ const page = () => {
             />            
           </div>
 
-          <div className="outline rounded-xl">
+          <div className="outline outline-purple-300 rounded-xl">
             <Image
               src="/positiveTwitching2.jpeg"
               alt="photo"
