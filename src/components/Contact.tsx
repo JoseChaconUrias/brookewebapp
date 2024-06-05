@@ -8,7 +8,7 @@ const Contact = () => {
         <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-black [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
         <div className="flex flex-col gap-4 lg:gap-20 w-full items-center">
           <h2 className="text-2xl font-extrabold text-center lg:text-5xl">
-            Here's How to Reach Me 🌎 📞
+            Here&apos;s How to Reach Me 🌎 📞
           </h2>
           <div className="text-center text-xl flex flex-col gap-4">
             <p>

@@ -35,7 +35,7 @@ const Hero = () => {
             <section className="flex flex-col gap-2 lg:gap-4">
               <h1 className="text-2xl font-extrabold md:text-3xl lg:text-5xl">Microbiology and Biochemistry Undergraduate</h1>
               <p className="text-xl font-semibold md:text-2xl lg:text-3xl">
-                Hello, I'm Brooke McCartney with interests in Microbes and DNA
+                Hello, I&apos;m Brooke McCartney with interests in Microbes and DNA
                 🧬🧪
               </p>
               <span className="flex flex-row items-center gap-4">
