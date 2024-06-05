@@ -4,6 +4,7 @@ import React from "react";
 import { HeroHighlight, Highlight } from "./ui/HeroHighlight";
 import { motion } from "framer-motion";
 import { FaInstagram, FaLinkedin } from "react-icons/fa";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -41,8 +42,13 @@ const Hero = () => {
                 <Highlight className="text-md md:text-lg lg:text-xl">
                   View more about me
                 </Highlight>
-                <FaInstagram />
-                <FaLinkedin />
+                <Link href="https://www.instagram.com/brookeemccartney/">
+                  <FaInstagram />
+                </Link>
+                <Link href="https://www.linkedin.com/in/brooke-mccartney-3988a62a0/">
+                  <FaLinkedin />
+                </Link>
+                
               </span>
             </section>
           </div>

@@ -9,11 +9,11 @@ const NavBar = () => {
           <Link href="/" className="text-gray-300 hover:text-white">
             Home
           </Link>
-          <Link href="/#research" className="text-gray-300 hover:text-white">
-            Research
+          <Link href="/research-unl" className="text-gray-300 hover:text-white">
+            UNL
           </Link>
-          <Link href="/#contact" className="text-gray-300 hover:text-white">
-            Contact
+          <Link href="/research-mst" className="text-gray-300 hover:text-white">
+            MST
           </Link>
         </div>
       </div>    
@@ -22,11 +22,11 @@ const NavBar = () => {
           <Link href="/" className="text-gray-300 hover:text-white">
             Home
           </Link>
-          <Link href="/#research" className="text-gray-300 hover:text-white">
-            Research
+          <Link href="/research-unl" className="text-gray-300 hover:text-white">
+            UNL
           </Link>
-          <Link href="/#contact" className="text-gray-300 hover:text-white">
-            Contact
+          <Link href="/research-mst" className="text-gray-300 hover:text-white">
+            MST
           </Link>
         </div>
       </div>    
