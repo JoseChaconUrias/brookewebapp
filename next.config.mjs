@@ -2,8 +2,8 @@
 
 
 const nextConfig = {
-    basePath: '/brookewebapp',
-    assetPrefix: process.env.NODE_ENV === 'production' ? '/brookewebapp' : '',
+    basePath: '',
+    assetPrefix: '',
     output: 'export',
     distDir: 'dist',
     images: {
