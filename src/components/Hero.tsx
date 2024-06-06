@@ -26,7 +26,7 @@ const Hero = () => {
         >
           <div className="flex flex-col gap-10  justify-between items-center lg:flex-row-reverse w-full">
             <Image
-              src="/brookePortrait.jpg"
+              src={`${process.env.NODE_ENV === 'production' ? '/brookewebapp' : ''}/brookePortrait.jpg`}
               alt="photo"
               width={300}
               height={300}
