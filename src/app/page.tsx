@@ -1,7 +1,6 @@
 import Contact from "@/components/Contact";
 import Hero from "@/components/Hero";
 import ResearchContent from "@/components/ResearchContent";
-import NavBar from "@/components/nav/NavBar";
 import React from "react";
 
 const page = () => {
