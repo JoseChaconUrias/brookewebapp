@@ -11,7 +11,7 @@ const page = () => {
         <div className="flex flex-col justify-center gap-20 items-center md:flex-row md:mb-20">
           <div className="outline outline-purple-300 rounded-xl">
             <Image
-              src={`${process.env.NODE_ENV === 'production' ? '/brookewebapp' : ''}/positiveTwitching1.jpeg`}
+              src="/positiveTwitching1.jpeg"
               alt="photo"
               height={300}
               width={300}
@@ -21,7 +21,7 @@ const page = () => {
 
           <div className="outline outline-purple-300 rounded-xl">
             <Image
-              src={`${process.env.NODE_ENV === 'production' ? '/brookewebapp' : ''}/positiveTwitching2.jpeg`}
+              src="/positiveTwitching2.jpeg"
               alt="photo"
               height={300}
               width={300}

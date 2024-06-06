@@ -14,7 +14,7 @@ export function ResearchCards() {
           <div className="flex flex-col gap-4 lg:gap-10 items-center justify-center mt-10">
               <div className="w-24 h-24 flex items-center justify-center">
                   <Image
-                    src={`${process.env.NODE_ENV === 'production' ? '/brookewebapp' : ''}/university-of-nebraska-lincoln.svg`}
+                    src="/university-of-nebraska-lincoln.svg"
                     alt="unl"
                     width={100}
                     height={100}
@@ -34,7 +34,7 @@ export function ResearchCards() {
           <div className="flex flex-col gap-4 lg:gap-10 items-center justify-center mt-10">
             <div className="w-24 h-24 flex items-center justify-center">
               <Image
-                  src={`${process.env.NODE_ENV === 'production' ? '/brookewebapp' : ''}/missouri-st.png`}
+                  src="/missouri-st.png"
                   alt="unl"
                   width={100}
                   height={100}

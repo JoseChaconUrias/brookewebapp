@@ -13,9 +13,7 @@ const ResearchContent = () => {
           <ResearchCards />
         </div>
         <Image
-          src={`${
-            process.env.NODE_ENV === "production" ? "/brookewebapp" : ""
-          }/kirby.webp`}
+          src="/kirby.webp"
           alt="kirby"
           width={300}
           height={300}
